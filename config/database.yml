@@ -10,7 +10,7 @@ default: &default
   port: 5439
   database: snapdocs
   username: snapdocs
-  password: P9b8QDjg4UIsigKztLIbO9rmL1GRpw
+  password: 
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
   schema_search_path: "sns_parsed"
