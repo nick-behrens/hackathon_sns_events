@@ -1,0 +1,12 @@
+<h1>SNS Events</h1>
+
+<ul>
+  <% @events.each do |event| %>
+    <li>
+      <%= event.message_at %>
+      <%= event.closing_id %>
+      <%= event.closing_event %>
+      <%= event.closing_status %>
+    </li>
+  <% end %>
+</ul>
